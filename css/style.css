@@ -1,0 +1,413 @@
+body {
+    margin: 0;
+    font-family: 'Inconsolata', 'work Sans';
+    width: 100%;
+}
+
+.header {
+    width: 1500px;
+    height: 273px;
+    background: white;
+    /* background-image: url(../Images/fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.container {
+  width: 980px;
+    height: 273px;
+    margin: 0 auto;
+    display: flex;
+    background: darkslategray;
+    
+
+}
+.left_img {
+    display: flex;
+    flex-direction: column;
+}
+img.img_Ing {
+    width: 257px;
+    height: 294px;
+    border-radius: 75px;
+}
+
+.name {
+    color: white;
+    position: absolute;
+    margin-top: 190px;
+    width: 980px;
+    height: 83px;
+    background: rgba(0, 0, 0, 0.52);
+
+}
+    .right_name {
+        color: white;
+    }
+    
+
+
+    h1.logo {
+        margin: 0;
+        margin-bottom: 19px;
+        margin-top: 9px;
+        border-bottom: 1px solid white;
+        margin-left: 63px;
+    }
+    
+    p.text_prof {
+        margin: 0;
+        margin-left: 63px;
+        margin-top: 30px;
+        line-height: 22px;
+    }
+
+    h1 {
+        margin: 0;
+        margin-left: 46px;
+        border-bottom: 1px solid;
+        margin-right: 649px;
+        font-size: 30px;
+        margin-top: 14px;
+    }
+    p.text_name {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 46px;
+    }
+    h2.logo {
+        margin: 0;
+        border-bottom: 1px solid;
+        margin-left: 62px;
+        margin-top: 23px;
+    }
+    /* .header {
+        width: 1500px;
+        height: 273px;
+        background: white;
+    } */
+
+    .Education {
+        width: 490px;
+        height: 507px;
+        margin-left: 260px;
+        background-color: oldlace;
+    }
+    .contact {
+        width: 490px;
+        height: 1019px;
+        background-color: gainsboro;
+        
+       
+    }
+    
+    .header_inf {
+        display: flex;
+    }
+    img.logo_edc {
+        width: 50px;
+        margin: 10px 0 18px 15px;
+        border: 3px solid cadetblue;
+        padding: 5px;
+        border-radius: 12px;
+    }
+    h2.main_ed {
+        margin: 0;
+        margin-left: 15px;
+    }
+    p.main_designer {
+        margin: 0;
+    }
+    p.textname_sep {
+        margin: 0;
+    }
+    .text_item {
+        margin: 0;
+        margin-top: 11px;
+        margin-left: 77px;
+        width: 380px;
+    }
+    
+    
+    .nav_education {
+        display: flex;
+        align-items: center;
+    }
+    .stick {
+        width: 152px;
+        height: 1px;
+        background-color: midnightblue;
+        margin-left: 50px;
+    }
+    span.main_designer {
+        margin-left: 93px;
+        font-weight: 700;
+    }
+    p.textname_sep {
+        margin: 0;
+        margin-left: 93px;
+    }
+    .stick2 {
+        width: 415px;
+        margin-top: 13px;
+        height: 1px;
+        background-color: black;
+        margin-bottom: 9px;
+        margin-left: 75px;;
+    }
+    .stick_2 {
+        width: 415px;
+        margin-top: 15px;
+        height: 1px;
+        background-color: black;
+        margin-bottom: 9px;
+        margin-left: 75px;;
+    }
+
+    .main_designer-2 {
+        margin-left: 93px;
+        font-weight: 700;
+    }
+
+    .text_item-2 {
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 77px;
+        width: 380px;
+    
+    }
+p.textname_oct {
+    margin: 0;
+    padding-left: 91px;
+}
+
+span.main_designer-3 {
+    margin-left: 93px;
+    font-weight: 700;
+}
+p.textname_JAN {
+    margin: 0;
+    margin-left: 91px;
+}
+p.text_item-3 {
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 77px;
+    width: 380px;
+}
+
+.main_education2 {
+    width: 490px;
+    height: 507px;
+    margin-left: 260px;
+    background-color: oldlace;
+    margin-top: -507px;
+    /* position: absolute; */
+}
+.logo_icon-edc {
+    width: 50px;
+    margin: 10px 0 18px 15px;
+    border: 3px solid cadetblue;
+    padding: 5px;
+    border-radius: 12px;
+}
+.main_logo-ed {
+    display: flex;
+    align-items: center;
+}
+.main_text-edc {
+    /* margin: 0; */
+    margin-left: 15px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.stick4 {
+    width: 158px;
+    height: 1px;
+    background-color: black;
+    margin-left: 57px;
+    margin-top: 2px;
+}
+.contacts {
+    width: 50px;
+    margin: 10px 0 18px 15px;
+    padding: 5px;
+    
+}
+.icon_contacts {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 700;
+}
+.main_contact {
+    margin-left: 16px;
+}
+.telephone_text {
+    display: flex;
+    align-items: center;
+}
+    span.number {
+        margin-left: 10px;
+        color: ghostwhite;
+}
+
+.Email_text {
+    display: flex;
+    align-items: center;
+
+    font-weight: 700;
+    margin: 10px 0;
+}
+span.email {
+    font-size: 16px;
+    
+    color: brown;
+}
+a.email {
+    margin-left: 10px;
+    color: brown;
+
+}
+a.email:hover {
+    color: darkorchid;
+}
+.main_icon-email {
+     
+        margin-left: 92px;
+        font-size: 16px;
+    
+        
+}
+
+.webs_icon {
+    margin-left: 10px;
+    font-size: 16px;
+    color: midnightblue;
+}
+.webs_icon:hover {
+    color: red;
+}
+
+.Website {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 700;
+}
+span.Website_text {
+    margin-left: 91px;
+    font-size: 17px;
+}
+span.Webs_icon {
+    margin-left: 10px;
+    font-size: 16px;
+    color: lightyellow;
+}
+.stick5 {
+    width: 377px;
+    height: 1px;
+    background-color: white;
+    margin-left: 57px;
+    margin-top: 17px;
+}
+.icon_love{
+width: 50px;
+    margin: 10px 0 18px 15px;
+    padding: 5px;
+
+    
+}
+
+.interests_icon {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.text_interest {
+    margin-left: 10px;
+}
+
+.icon_sport {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 18px;
+    margin: 0 33px;
+}
+img.icon_bassketball {
+    width: 78px;
+    border-radius: 22px;
+}
+.icon_sport-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 18px;
+    margin: 77px 33px 0;
+}
+img.icon_tennis {
+    border-radius: 22px;
+    transition: .2s;
+    cursor: pointer;
+}
+img.icon_tennis:hover {
+    color: red
+}
+img.icon_gg {
+    border-radius: 22px;
+}
+
+img.icon_tennis {
+    border-radius: 22px;
+}
+.logo_eurosport {
+    width: 490px;
+    height: 379px;
+    background: url(../Images/EUROSPORT.png);
+    background-blend-mode: multiply;
+    background-color: cyan;
+    background-attachment: fixed;
+}
+img.icon_skills {
+    width: 96px;
+    margin: 19px 0 0 27px;
+}
+.main_text-skill {
+    
+        font-size: 24px;
+        margin-left: 27px;
+        font-weight: 700;
+    }
+
+.menu_skills {
+    display: flex;
+    align-items: center;
+}   
+img.icon_css {
+    width: 43px;
+    margin: 10px 0;
+}
+
+.menu_proggr {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+progress {
+    width: 66%;
+}
+.adap_body {
+    width: 1496px;
+    height: 1292px;
+
+}
+
+@media screen and (max-width:1200px) {
+    .adap_body {
+        width: 1100px;
+        
+    }
+
+}
+
